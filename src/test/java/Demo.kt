@@ -8,7 +8,6 @@ import javax.tools.JavaFileObject
 class Demo {
     @Test
     fun test() {
-        println("Hello, world!")
         val javaFileObjects: List<JavaFileObject> = listOf(
             JavaFileObjects.forSourceString(
                 "com.example.T",
